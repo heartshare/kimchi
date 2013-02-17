@@ -1,0 +1,46 @@
+
+
+.flexslider .slides > li {display: none;position:relative} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flex-pauseplay span {text-transform: capitalize;}
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+
+.flexslider {
+	margin: 0;
+	position: relative;}
+
+/* Control Nav */
+
+.flex-direction-nav{
+	position:absolute;margin-top:-20px;
+	width:100%;
+	top:50%;
+	z-index:80;
+	left:0;
+	overflow:hidden}
+	.flex-direction-nav li{width:50%;text-align:right;position:relative;float:left;}
+	.flex-direction-nav li:first-child{text-align:left;}
+	
+.flex-direction-nav li a {
+width: 27px;
+ height:40px;
+display: inline-block; 
+cursor: pointer;
+ text-indent: -9999px;
+ overflow:hidden;
+ font-size:0;
+ line-height:0;
+ -webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+.flex-direction-nav li a:hover{background-color:#a63343}
+
+
+.flex-direction-nav li .flex-next {background:url(../images/next-1.png) no-repeat 50% 50% #000;}
+.flex-direction-nav li .flex-prev {background:url(../images/prev-1.png) no-repeat 50% 50% #000;}

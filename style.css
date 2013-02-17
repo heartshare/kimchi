@@ -1,0 +1,26 @@
+/*
+Theme Name: Kimchi Wedding
+Theme URI: http://kimchiwedding.com/
+Description: Hyun & Duri's Wedding Website
+Author: Duri Chitayat
+Author URI: http://durichitayat.net/
+Version: 1.1
+Tags: custom website
+
+License: none
+License URI: none
+
+General comments (optional).
+*/
+
+.current-menu-item {
+background: #000;
+}
+
+.current-menu-item a {
+color: #a63343!important;
+}
+
+.menu-item a:hover {
+color: #a63343!important;
+}

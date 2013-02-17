@@ -1,0 +1,21 @@
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+/*	margin:			0;*/
+/*	padding:		0;*/
+	list-style:		none;
+}
+
+.sf-menu ul {
+	position:		absolute;
+	top:			-999px;
+	
+}
+
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			90px; /* match top ul list item height */
+	z-index:		9999;
+}
